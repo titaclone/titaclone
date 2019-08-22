@@ -1,24 +1,20 @@
 ---
-layout: page
-title: Home
+layout: default
 ---
 
-<section class="list" >
- 
-<h3>Quote of the day</h3>
+<div class="home">
 
-	<blockquote>
-	  <h5>{{ site.quote }}</h5>
-	  <h4> {{ site.quote_author }}</h4>
-	</blockquote>
+  <h1>Posts</h1>
 
-    <div class="share-page">
-    Share this on &rarr;
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-    <a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet?text={{ site.quote }} {{ site.quote_author }}">
-Twitter</a>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div> 
-       
-</section>
+</div>

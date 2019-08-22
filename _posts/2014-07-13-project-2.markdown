@@ -1,0 +1,15 @@
+---
+title: Feed my pet
+subtitle: Game for kids
+layout: default
+modal-id: 3
+date: 2014-07-13
+img: pets.png
+thumbnail: pets-thumbnail.png
+alt: image-alt
+project-date: July 2014
+client: 
+category: Game Development
+description:
+
+---

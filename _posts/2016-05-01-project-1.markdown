@@ -1,0 +1,15 @@
+---
+title:  Letters for kids
+subtitle: Educational Game
+layout: default
+modal-id: 1
+date: 2016-05-01
+img: abjad-words.png
+thumbnail: abjad-thumbnail.png
+alt: image-alt
+project-date: April 2016
+client: 
+category: Game Development
+description: Educational Game to teach kids letters and words, colors, numbers, figures and animal names.
+
+---

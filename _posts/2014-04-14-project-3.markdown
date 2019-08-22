@@ -1,0 +1,15 @@
+---
+title: Egg To Mars
+subtitle: Mobile Game
+layout: default
+modal-id: 2
+date: 2014-04-14
+img: eggtomars.png
+thumbnail: eggtomars-thumbnail.png
+alt: image-alt
+project-date: April 2014
+client:
+category: Game Development
+description: A journey of an egg in space trying to avoid astroids.
+
+---
